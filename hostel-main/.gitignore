@@ -1,0 +1,42 @@
+# Node dependencies
+node_modules/
+**/node_modules/
+backend/node_modules/
+frontend/node_modules/
+
+# Production build outputs
+dist/
+frontend/dist/
+frontend/frontend/dist/
+build/
+
+# Environment variables & secrets
+.env
+**/.env
+backend/.env
+frontend/.env
+frontend/backend/.env
+*.env.local
+
+# Database & Upload Data Store
+backend/data_store.json
+frontend/backend/data_store.json
+backend/uploads/*
+!backend/uploads/.gitkeep
+frontend/backend/uploads/*
+!frontend/backend/uploads/.gitkeep
+
+# System & IDE files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.suo
+*.user
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
